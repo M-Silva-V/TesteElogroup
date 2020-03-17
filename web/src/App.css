@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  font-size: 16px;
+  background: #ccc;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 10px 10px 10px;
+  margin-top: 50px;
+}
+
+strong {
+  margin-left: 40%;
+  font-size: 20px;
+}
+
+.form-name input {
+  width: 470px;
+  padding: 10px;
+}
+
+.form-telephone input {
+  width: 470px;
+  padding: 10px;
+}
+
+.form-know select {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.form-social input {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.form-what input {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#enviar {
+  margin-top: 10px;
+  width: 470px;
+  height: 30px;
+  margin-left: 12px;
+  color: white;
+  background-color: blue;
+}
+
+#enviar[disabled] {
+  background: blue;
+  opacity: 0.1;
+}
